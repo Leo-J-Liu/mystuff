@@ -1,4 +1,11 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 @font-face {
     font-family: rock;
     src: url(fonts/ROCK.TTF);
@@ -28,15 +35,17 @@ p1{
     font-family: ppneuebitbold;
     font-size: 130px;
     transform: scaleY(0.8);
+    transform-origin: bottom;
     line-height: 0.83;
     color: #b5bfb6;
+    /* background-color: black; */
 }
 
 
 p2{
     font-family: rock;
     font-size: 20px;
-    color: #b5bfb6;
+    color: #cf9c7f;
     line-height: 20px;
     height: 20px;
     /* background-color: black; */
@@ -92,7 +101,7 @@ p3{
     display: flex;
     /* flex-direction: row\\; */
     justify-content: center;
-    height: 40vh;
+    height: 46vh;
 }
 
 #section1box1 {
@@ -100,8 +109,7 @@ p3{
     background-color: rgb(247, 243, 213);
     width: 75%;
     display:flex;
-    align-items: end;
-    
+    align-items: flex-end;
 }
 
 #downtriangle {
@@ -116,7 +124,7 @@ p3{
     flex-direction: row;
     display: flex;
     justify-content: center;
-    height: 10vh;
+    height: 14vh;
 }
 
 
@@ -153,8 +161,8 @@ p3{
 }
 
 .img2 {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 /* 
