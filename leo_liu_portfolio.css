@@ -563,6 +563,7 @@ p4{
     max-height: 90vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    max-width: 95vw;
 }
 
 
@@ -618,7 +619,16 @@ p4{
 }
 
 
+@media only screen and (max-width: 1200px) {
 
+    #workgrid {
+        grid-template-columns: 1fr; 
+    }
+
+    #blmgrid {
+        grid-template-columns: 1fr; 
+    }
+  }
 
 
 #blmp1 {
