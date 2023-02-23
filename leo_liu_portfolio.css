@@ -493,3 +493,70 @@ p4{
     width: 100%;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containercenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#knollstuff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.knollposters {
+    max-height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
