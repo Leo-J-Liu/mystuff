@@ -718,6 +718,10 @@ p4{
 
 @media only screen and (max-width: 1200px) {
 
+    p1 {
+        font-size: 11vw;
+    }
+
     #workgrid {
         grid-template-columns: 1fr; 
     }
