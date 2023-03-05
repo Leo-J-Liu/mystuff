@@ -552,10 +552,29 @@ p4{
 
 .containercenter {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
+
+
+
+
+
+.fullpagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
 
 
 
@@ -577,6 +596,14 @@ p4{
 
 
 
+
+
+
+
+
+
+
+
 #blmstuff {
     display: flex;
     align-items: center;
@@ -587,16 +614,6 @@ p4{
     position: sticky;
 }
 
-
-
-
-.fullpagecontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-}
 
 
 #blmgif {
@@ -706,6 +723,211 @@ p4{
 
 
 
+
+
+#concertstuff {
+    width: 100%;
+    background-color:#131313;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+#pianomotionposter {
+    max-height: 80vh;
+    max-width: 95vw;
+}
+
+
+#jazz {
+    max-height: 80vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dstylegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(4, 1fr);
+    width: 90vw;
+    max-width: 1920px;
+    row-gap: 8vh; 
+    column-gap: 5vw;
+    background-color: #fff9ec;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+.blmgridcell {
+    width: 100%;
+    justify-self: start;
+}
+
+.griditem {
+    width: 100%;
+}
+
+.dstyletitle {
+    font-family: montserrat;
+    font-size: 0.8vw;
+    line-height: 0.8vw;
+    justify-self: start;
+    margin-top: 0.5vh;
+    color: #5c5c5c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#changevid {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#xnodegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(2, 1fr);
+    width: 90vw;
+    max-width: 1920px;
+    row-gap: 8vh; 
+    column-gap: 5vw;
+    background-color: rgb(211, 211, 211);
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.naturehori {
+    width: 70vw;
+    max-width: 1680px;
+}
+
+.naturevert {
+    max-height: 100vh;
+    max-width: 1680px;
+    margin-top: 10vh;
+}
+
+.naturevert2 {
+    max-height: 80vh;
+    max-width: 1680px;
+    margin-bottom: 10vh;
+}
+
+
+
+.naturegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 80vw;
+    max-width: 1920px;
+    row-gap: 8vh; 
+    column-gap: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sktinterviewgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    width: 90vw;
+    max-width: 1920px;
+    row-gap: 10vh; 
+    column-gap: 1px;
+    /* background-color: #000000; */
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    z-index: 3;
+}
+
+#blackchungus {
+
+    width: 70vw;
+    height: 270vh;
+    max-width: 1600px;
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+    background-color:  #000000;
+    position: absolute;
+}
+    
+
+.sktpage1 {
+    max-width: 100%;
+    max-height: 90vh;
+    justify-self: end;
+}
+
+.sktpage2 {
+    max-width: 100%;
+    max-height: 90vh;
+    justify-self: start;
+}
 
 
 
@@ -825,4 +1047,27 @@ p4{
     #blmmockup {
         margin-top: 20vh;
     }
+
+    #dstylegrid {
+        grid-template-columns: 1fr;
+        width: 95vw;
+        row-gap: 5vh; 
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 2000px) {
+    
+    p1 {
+        font-size: 160px;
+    }
+    
 }
