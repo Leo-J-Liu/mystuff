@@ -99,7 +99,8 @@ p4{
 
 #topsection {
     width: 100%;
-    background-color: hsl(113, 77%, 60%);
+    background-color: transparent;
+    transition: background-color 1s ease;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,9 +118,6 @@ p4{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 3%;
-
-    
-    
 }
 
 #logoroom {
@@ -127,7 +125,8 @@ p4{
     width: 12%;
     justify-content: center;
     align-items: center;
-    background-color: #f7f4ee;
+    background-color:transparent;
+    transition: background-color 1s ease;
     height: 60px;
 }
 
@@ -137,9 +136,47 @@ p4{
 
 
 
+#color-btn {
+    background-color: transparent;
+    border-right: 3px dashed rgb(207, 156, 127);
+    /* padding: 10px; */
+    /* border-radius: 5px; */
+    cursor: pointer;
+    width: 30%;
+    height: 100%;
+}
+
+#color-btn:hover {
+    background-color: rgb(207, 156, 127);
+}
+
+#topsection.no-bg {
+    background-color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #section1 {
     width: 100%;
-    background-color: rgb(139, 139, 226);
+    background-color: transparent;
+    transition: background-color 1s ease;
     display: flex;
     /* flex-direction: row\\; */
     justify-content: center;
@@ -149,7 +186,8 @@ p4{
 
 #section1box1 {
     justify-content: left;
-    background-color: rgb(247, 243, 213);
+    background-color: transparent;
+    transition: background-color 1s ease;
     width: 75%;
     display:flex;
     align-items: flex-end;
@@ -163,7 +201,8 @@ p4{
 
 
 #section2 {
-    background-color: rgb(241, 129, 129);
+    background-color: transparent;
+    transition: background-color 1s ease;
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -173,7 +212,8 @@ p4{
 
 
 #section2box1 {
-    background-color: rgb(230, 222, 245);
+    background-color: transparent;
+    transition: background-color 1s ease;
     display: flex;
     justify-content: left;
     z-index: 1;
@@ -183,23 +223,25 @@ p4{
     padding-bottom: 10px;
 }
 
-.cvs {
+#cvs {
     display: flex;
     justify-content: left;
     align-items: center;
     flex-direction: row;
-    background-color: #e0f1e1;
+    background-color: transparent;
+    transition: background-color 1s ease;
     width: 25%;
     height: auto;
 }
 
-.cvs2 {
+#cvs2 {
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: center;
     flex-direction: row;
-    background-color: #e8eff3;
+    background-color: transparent;
+    transition: background-color 1s ease;
     width: 25%;
     height: auto;
 }
@@ -246,7 +288,7 @@ p4{
 }
 
 #section3 {
-    background-color: #cf9c7f;
+    background-color: rgb(207, 156, 127);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -877,6 +919,7 @@ p4{
     column-gap: 5vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    /* background-color: #5c5c5c; */
 }
 
 
@@ -1004,13 +1047,13 @@ p4{
         line-height: 9vh;
     }
 
-    .cvs {
+    #cvs {
         flex-direction: column;
         justify-content: center;
         width: 50%;
     }
 
-    .cvs2 {
+    #cvs2 {
         flex-direction: column;
         justify-content: center;
         width: 50%;
