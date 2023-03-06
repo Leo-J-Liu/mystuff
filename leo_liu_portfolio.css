@@ -29,6 +29,11 @@ main {
 }
 
 
+a {
+    color: inherit;
+  }
+
+
 #mARK {
     position: absolute;
     top: 0;
@@ -50,7 +55,7 @@ body {
 p1{
     font-family: ppneuebitbold;
     font-size: 130px;
-    transform: scaleY(0.8);
+    transform: scaleY(0.77);
     transform-origin: bottom;
     line-height: 0.83;
     color: #b5bfb6;
@@ -195,7 +200,7 @@ p4{
 
 #downtriangle {
     /* background-color: blue; */
-    color: #cf9c7f;
+    color: #daac92;
     /* transform: scaleY(0.7); */
 }   
 
@@ -1114,3 +1119,21 @@ p4{
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
