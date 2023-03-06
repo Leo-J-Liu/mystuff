@@ -70,8 +70,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
-
+      const workBtn = document.querySelector('#work-btn');
+      const aboutSection = document.querySelector('#aboutsection');
+      
+      workBtn.addEventListener('click', () => {
+        window.scrollTo(0, window.innerHeight * 0.73 + aboutSection.getBoundingClientRect().height);
+      });
 
 
 
