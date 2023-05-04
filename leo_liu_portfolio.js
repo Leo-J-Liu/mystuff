@@ -1,4 +1,31 @@
 document.addEventListener("DOMContentLoaded", function() {
+  
+
+
+// Get references to the popup content and OK button elements
+const popupContent = document.getElementById("popup-content");
+const okButton = document.getElementById("ok-button");
+
+// Show the popup content when the page loads
+popupContent.style.display = "flex";
+
+// Add a click event listener to the OK button
+okButton.addEventListener("click", function() {
+  // Hide the popup content when the OK button is clicked
+  popupContent.style.display = "none";
+});
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     document.getElementById("color-btn").addEventListener("click", function() {
