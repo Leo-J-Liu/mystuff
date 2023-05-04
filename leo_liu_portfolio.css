@@ -92,9 +92,9 @@ p2{
 
 p3{
     font-family: montserrat;
-    font-size: 18px;
+    font-size: 15px;
     color: #ffffff;
-    line-height: 23px;
+    line-height: 19px;
 }
 
 
@@ -1138,8 +1138,8 @@ p10{
     }
 
     p3 {
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 20px;
+        line-height: 20px;
     }
 
     p4 {
@@ -1213,6 +1213,13 @@ p10{
         font-size: 160px;
     }
     
+    p3 {
+        font-size: 21px;
+        color: #ffffff;
+        line-height: 28px;
+    }
+
+
 }
 
 
